@@ -1,0 +1,15 @@
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\bin\Debug\net6.0\ConsoleApp100.exe
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\bin\Debug\net6.0\ConsoleApp100.deps.json
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\bin\Debug\net6.0\ConsoleApp100.runtimeconfig.json
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\bin\Debug\net6.0\ConsoleApp100.dll
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\bin\Debug\net6.0\ConsoleApp100.pdb
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ConsoleApp100.csproj.AssemblyReference.cache
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ConsoleApp100.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ConsoleApp100.AssemblyInfoInputs.cache
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ConsoleApp100.AssemblyInfo.cs
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ConsoleApp100.csproj.CoreCompileInputs.cache
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ConsoleApp100.dll
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\refint\ConsoleApp100.dll
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ConsoleApp100.pdb
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ConsoleApp100.genruntimeconfig.cache
+C:\Users\Li Jie\source\repos\ConsoleApp100\ConsoleApp100\obj\Debug\net6.0\ref\ConsoleApp100.dll
