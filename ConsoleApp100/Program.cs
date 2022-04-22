@@ -13,6 +13,7 @@ int numbsOfOperators = 0;
 int numbsOfHightPriorityOperators = 0;
 int numb1lenght = 0;
 int numb2lenght = 0;
+string GitTest = "用以测试Git";
 
 string text = "88.8+7+6×5+3÷2.5";
 System.Console.WriteLine($"Original text: '{text}'");
