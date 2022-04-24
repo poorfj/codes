@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Collections;
 using System.Linq;
-
-char[] operatorChars = { '+', '-', '×', '÷' };
+//用_替代减号
+char[] operatorChars = { '+', '_', '×', '÷' };
 char[] numbChars = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 //用以得知是第几个运算符
 int operatorsPositionIndex = 0;
@@ -14,8 +14,8 @@ int numbsOfHightPriorityOperators = 0;
 int numb1lenght = 0;
 int numb2lenght = 0;
 string GitTest = "用以测试Git";
-
-string text = "88.8+7+6×5+3÷2.5";
+//用-表示负数表示_减号
+string text = "-8×-5+-6÷3";
 System.Console.WriteLine($"Original text: '{text}'");
 
 
@@ -23,11 +23,14 @@ System.Console.WriteLine($"Original text: '{text}'");
 ArrayList numbsAr=new ArrayList();
 ArrayList operatorsAr = new ArrayList();
 string[] numbsArs = text.Split(operatorChars);
+
+
 //把数字移进ArrayList
 foreach (var word in numbsArs)
 {
     numbsAr.Add(word);
 }
+
 //第一次打印
 foreach (var item in numbsAr)
 {
@@ -52,6 +55,9 @@ foreach (var item in numbsAr)
 {
     Console.WriteLine(item);
 }
+
+
+
 //把字符转成Double
 double toStringAndTryParse(object? num)
 {
@@ -70,7 +76,7 @@ void GetIndexHP(string tx)
         {
             break;
         }
-        else if (item == '+' || item == '-')
+        else if (item == '+' || item == '_')
         {
             operatorsPositionIndex += 1;
             stringIndex += 1;
@@ -88,7 +94,7 @@ void GetIndex(string tx)
     stringIndex = 0;
     foreach (var item in tx)
     {
-        if (item == '+' || item == '-')
+        if (item == '+' || item == '_')
         {
             break;
         }
@@ -103,7 +109,7 @@ bool IsThereOperatot(string tx)
     numbsOfOperators = 0;
     foreach (var item in tx)
     {
-        if (item == '×' || item == '÷'||item == '+' || item == '-')
+        if (item == '×' || item == '÷'||item == '+' || item == '_')
         {
             numbsOfOperators += 1;
         }
@@ -145,7 +151,7 @@ void Calculate(int STRindex)
         case '+':
             newNum = toStringAndTryParse(numbsAr[operatorsPositionIndex]) + toStringAndTryParse(numbsAr[operatorsPositionIndex + 1]);
             break;
-        case '-':
+        case '_':
             newNum = toStringAndTryParse(numbsAr[operatorsPositionIndex]) - toStringAndTryParse(numbsAr[operatorsPositionIndex + 1]);
             break;
         case '×':
@@ -179,6 +185,7 @@ void GetTwoNumbsLenght()
         numb2lenght += 1;
     }
 }
+
 //foreach (var item in text)
 //{
 //    if (item == '×' || item == '÷')
